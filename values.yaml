@@ -6,7 +6,8 @@ replicaCount: 1
 
 image:
   # repository: harbor.example.com/library/devsecops/sles15sp3-openjdk
-  repository: devsecops/sles15sp3-openjdk
+  repository: devsecops/sles15sp3-openjdk:11.0-3.56.1
+
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: v1.0.72
